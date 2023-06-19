@@ -8,7 +8,6 @@
   width: 100%;
 }
 
-
 header{
   display: flex;
   align-items: center;
@@ -16,17 +15,19 @@ header{
   padding: 0 2rem;
   background-color: #ecc19c;
   color: #000;
-
 }
 
 nav a{
   margin: 0 2rem;
   color: #000;
   text-decoration: none;
+  font-size: 20px;
 }
 
 nav a:hover{
   color: blue;
+
+  color: white;
 }
 
 .MonLogo img{
@@ -48,39 +49,12 @@ header .nav-btn{
   padding: 10px;
   margin-left: 30px;
 }
-
-.footer{
-  display: flex;
-  justify-content: space-between;
-  padding: 30px;
-}
-
-footer{
+ 
+header .btn{
   background-color: #322e2f;
-  padding-top: 30px;
-}
-
-footer input{
-  outline: none;
-  padding: 8px;
-  border-radius: 20px/50px;
-}
-
-footer a{
-  text-decoration: none;
-  display: block;
-  font-size: 2.2rem;
   color: white;
-}
+  font-size: 20px;
 
-footer h3{
-  color:white;
-}
-
-footer p{
-  color: white;
-  margin: 10px;
-  font-size: 2.1rem;
 }
 
 @media only screen and (max-width:1024px){

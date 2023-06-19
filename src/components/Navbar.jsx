@@ -19,8 +19,8 @@ function Navbar() {
                     <a href="/#">A propos</a>
                     <a href="/#">Contacts</a>
                     <a href="/#">Avantages</a>
-                    <button type="button" class="btn btn-primary">connexion</button>
-                    <button type="button" class="btn btn-primary">Inscription</button>
+                    <button type="button" class="btn btn-outline">connexion</button>
+                    <button type="button" class="btn btn">Inscription</button>
                     <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                         <FaTimes/>
                     </button>
