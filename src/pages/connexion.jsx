@@ -1,31 +1,33 @@
+
 import './connexion.css'
-const [name, setName] = useState('');
-const [email, setEmail] = useState('');
 
 function Connexion (){
 
-    return (
-   <>
+  return(
+    <>
+      <div class="container">
+        <div class="form">
+            <a class="singup">Connexion</a>
+            <div class="inputBox">
+                <input type="text" required="required"/>
+                <span class="user">Email</span>
+            </div>
+            <div class="inputBox">
+                <input type="password" required="required"/>
+                <span>Mot de passe</span>
+            </div>
+            <p class="mb-5 pb-lg-2">Aveiez-Vous un compte? <a href="http://localhost:5173/Inscription?"
+              >Créer un.</a>
+            </p>
+
+            <button class="enter">Connexion</button>
+
+        </div>
+    </div>
 
 
-    <form>
-      <input value={name} onChange={(e) => setName(e.target.value)} />
-      <input value={email} onChange={(e) => setEmail(e.target.value)} />
-      <button onClick={onSubmit}>Submit</button>
-    </form>
-
-
-
-
-
-    </>
-
-
-
-
-    )
-
-
+  </>
+  )
 
 }
 

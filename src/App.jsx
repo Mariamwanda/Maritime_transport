@@ -4,6 +4,8 @@ import Home from './pages/home';
 import Contact from './pages/Contact';
 import Apropos from './pages/Apropos';
 import Connexion from './pages/connexion';
+import Inscription from './pages/inscription';
+import Expedition from './pages/expedition';
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
@@ -14,9 +16,11 @@ function App() {
   <BrowserRouter>
       <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/Contact' element={<Contact/>}/>
           <Route path='/Apropos' element={<Apropos/>}/>
           <Route path='/Connexion' element={<Connexion/>}/>
+          <Route path='/Inscription' element={<Inscription/>}/>
+          <Route path='/Expedition' element={<Expedition/>}/>
       </Routes>
   </BrowserRouter>
    
