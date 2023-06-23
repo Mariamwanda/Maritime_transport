@@ -148,7 +148,7 @@ header{
     
 }
 
-.toCurrency{
+#toCurrency{
   font-size: 25px;
 }
 
@@ -176,8 +176,15 @@ select{
     border: 1px solid ;
 }
 
-select:focus{
-   border-color: blue;
+
+#form3Example1{
+  height: 4vh;
+}
+
+
+#form3Example2{
+  margin-top: 30px;
+  height: 4vh;
 }
 
 .primary-btn{
@@ -207,16 +214,17 @@ label{
     margin-left: 6vw;
 }
 
+
 .form-select{
-    width: 87%;
-    margin: auto;
-    display: block;
-    font-size: 2rem;
-    background: none;
-    line-height: 1.5;
-    padding: 5px;
-    border-radius: 6px;
-    color: #19376D;
-    border: 1px solid #19376D;
-    margin-top: 20px;
+  width: 87%;
+  margin: auto;
+  display: block;
+  font-size: 2rem;
+  background: none;
+  line-height: 1.5;
+  padding: 5px;
+  border-radius: 6px;
+  color: #19376D;
+  border: 1px solid #19376D;
+  margin-top: 20px;
 }

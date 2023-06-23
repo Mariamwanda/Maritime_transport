@@ -6,11 +6,14 @@ import Apropos from './pages/Apropos';
 import Connexion from './pages/connexion';
 import Inscription from './pages/inscription';
 import Expedition from './pages/expedition';
-import './App.css'
+import { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
+import './App.css'
+
 
 function App() {
-
+    
  return(
   <>
   <BrowserRouter>
@@ -23,9 +26,7 @@ function App() {
           <Route path='/Expedition' element={<Expedition/>}/>
       </Routes>
   </BrowserRouter>
-   
   </>
-   
 
  )
 

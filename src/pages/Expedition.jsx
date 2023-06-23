@@ -20,8 +20,8 @@ function Expedition() {
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="form-outline">
-                           <label class="form-label" for="form3Example2">Prenom</label>
-                            <input type="text" id="form3Example2" class="form-control" />
+                           <label class="form-label" for="form3Example1">Prenom</label>
+                            <input type="text" id="form3Example1" class="form-control" />
                         </div>
                     </div>
                     <div class="col-md-6 mb-4">
@@ -32,22 +32,21 @@ function Expedition() {
                     </div>
                     <div class="col-md-6 mb-4">
                         <div class="form-outline">
-                            <label class="form-label" for="form3Example2">Pays</label>
-                            <input type="text" id="form3Example2" class="form-control" />
+                            <label class="form-label" for="form3Example1">Pays</label>
+                            <input type="text" id="form3Example1" class="form-control" />
                         </div>
                     </div>
                 </div>
-                <input type="text" id="form3Example1" class="form-control" placeholder='Entrez votre colis'/>
+                <input type="text" id="form3Example2" class="form-control" placeholder='Entrez votre colis'/>
                
-                <select class="form-select form-select-lg">
+                <select type="text" id="form3Example2" class="form-control">
                     <option>Fcfa</option>
                     <option>Euro</option>
                     <option>Cedi</option>
                     <option>Naira</option>
                </select>
-                <input id="party" type="datetime-local" name="partydate" value="2017-06-01T08:30"/>
+               <input type="datetime-local" id="form3Example2" class="form-control"/>
 
-                <label id="fromCurrencyName"></label>
                 
                 <div id="select-field">
                 <label htmlFor="">Pays Actuelle</label>

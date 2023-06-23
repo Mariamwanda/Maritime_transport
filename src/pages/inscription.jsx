@@ -1,11 +1,13 @@
 import './connexion.css'
+import { useNavigate } from 'react-router-dom';
 
 function Inscription(){
+    
 
   return(
     <>
       <div class="container">
-        <div class="form">
+        <div class="form" onSubmit={EnvoyerRequete}>
             <a class="singup">Inscription</a>
             <div class="inputBox">
                 <input type="text" required="required"/>
@@ -24,7 +26,6 @@ function Inscription(){
                 <span>Contact</span>
             </div>
             <button class="enter">S'inscris</button>
-
         </div>
     </div>
   </>
