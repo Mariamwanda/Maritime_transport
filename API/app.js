@@ -1,5 +1,4 @@
 import express from "express";
-import {config} from "dotenv"
 import cors from "cors";
 import router from "./Routes/routes.js";
 import { connectDB } from "./config/db.js";
@@ -7,11 +6,11 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { utilisateur } from "./config/env.js";
 
+// const config = require('config')
+
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
-config({
-    path : path.join(process.cwd(),'.env.local')
-})
 
 
 const app = express();
